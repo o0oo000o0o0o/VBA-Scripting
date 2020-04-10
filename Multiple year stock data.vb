@@ -29,6 +29,15 @@ Sub Alpha():
         WS.Cells(1, 11).Value = "Percent Change"
         WS.Cells(1, 12).Value = "Total Volume"
 
+        Dim Summary_Table2 As Integer
+        Summary_Table2 = 3
+        WS.Cells(1, 15).Value = ""
+        WS.Cells(1, 16).Value = "Ticker"
+        WS.Cells(1, 17).Value = "Value"
+        WS.Cells(2, 15).Value = "Greatest % Increase"
+        WS.Cells(3, 15).Value = "Greatest % Decrease"
+        WS.Cells(4, 15).Value = "Greatest Total Volume"
+
 
         For i = 2 To LastRow
             
